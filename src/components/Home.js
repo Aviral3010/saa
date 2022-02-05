@@ -14,6 +14,9 @@ function Home() {
                 <Link to='/login'>
                     <button className="signin" onClick={goto}>Login to Use</button>
                 </Link>
+                <Link to='/Signup'>
+                    <button className="signin" >Signup</button>
+                </Link>
             </div>
         </center>
     );

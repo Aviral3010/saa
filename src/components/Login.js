@@ -5,7 +5,7 @@ export default function Login() {
     return (
 
         <div className="login my-3">
-            <h2 className="active"> sign in </h2>
+            <h2 className="active2"> sign in </h2>
 
 
             <form method="post" action="/login">
@@ -13,14 +13,14 @@ export default function Login() {
 
 
                 <input type="text" className="text" name="username" />
-                <span>username</span>
+                <span className="inp">username</span>
 
                 <br />
 
                 <br />
 
                 <input type="password" className="text" name="password" />
-                <span>password</span>
+                <span className="inp">password</span>
                 <br />
 
 

@@ -12,10 +12,10 @@ function Home() {
 
                 <img src={Logo} alt="logo" />
                 <Link to='/login'>
-                    <button className="signin" onClick={goto}>Login to Use</button>
+                    <button className="signin2" onClick={goto}>Login to Use</button>
                 </Link>
                 <Link to='/Signup'>
-                    <button className="signin" >Signup</button>
+                    <button className="signin2" >Signup</button>
                 </Link>
             </div>
         </center>

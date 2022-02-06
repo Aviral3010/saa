@@ -1,5 +1,5 @@
 import React from 'react'
-import '../index.css';
+import '../../index.css';
 
 
 export default function Signup() {
@@ -13,35 +13,35 @@ export default function Signup() {
     function validConfirmPass() { }
     function conf() { }
     return (
-      
-           
+
+
         <div className="register ">
             <h2 className="active">
                 Registration form
             </h2>
             <form method="post" action="/signup" id="ragistration">
                 <span>name</span>
-                <input type="text" name="usname" className="in" onblur={namech()} required />
+                <input type="text" name="usname" className="in" onBlur={namech} required />
                 <span className="mass"></span>
                 <br />
                 <br />
                 <span>date of birth</span>
-                <input type="date" name="dob" className="in" onblur={validateDOB()} required />
+                <input type="date" name="dob" className="in" onBlur={validateDOB} required />
                 <span className="mass"></span>
                 <br /><br />
                 <span>email</span>
-                <input type="text" name="email" className="in" required onblur={ValidateEmail()} />
+                <input type="text" name="email" className="in" required onBlur={ValidateEmail} />
                 <span id="email" className="mass"></span>
                 <br />
                 <br />
 
                 <span>address</span>
-                <input type="text" name="address" className="in" required onblur={ValidateAddress()} />
+                <input type="text" name="address" className="in" required onBlur={ValidateAddress} />
                 <span id="address" className="mass"></span>
                 <br /><br />
 
                 <span>mobile number</span>
-                <input type="text" name="mobile" className="in" required onblur={ValidMobile()} />
+                <input type="text" name="mobile" className="in" required onBlur={ValidMobile} />
                 <span id="mobi" className="mass"></span>
                 <br /><br />
 
@@ -60,14 +60,14 @@ export default function Signup() {
                 <br />
 
                 <span>create password</span>
-                <input type="password" name="password" className="in" required onblur={validPas()} />
+                <input type="password" name="password" className="in" required onBlur={validPas} />
                 <span id="pass" className="mass"></span>
 
                 <br />
                 <br />
 
                 <span>confirm password</span>
-                <input type="password" name="password_confirm" className="in" required onblur={validConfirmPass()} />
+                <input type="password" name="password_confirm" className="in" required onBlur={validConfirmPass} />
                 <span id="passcon" className="mass"></span>
                 <br /><br />
 
@@ -81,7 +81,7 @@ export default function Signup() {
                 <br />
 
 
-                <button className="btn" onclick={conf()}>Submit</button>
+                <button className="btn" onclick={conf}>Submit</button>
                 <button type="reset" className="btn">Reset</button>
 
 
@@ -92,6 +92,6 @@ export default function Signup() {
 
             </form>
         </div>
-    
+
     )
 }

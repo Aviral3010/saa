@@ -1,7 +1,7 @@
 import React from "react";
-import '../App.css';
+import '../../App.css';
 
-import Logo from "./../image/logo.png";
+import Logo from "../../image/logo.png";
 import { Link } from 'react-router-dom'
 const goto = () => { }
 

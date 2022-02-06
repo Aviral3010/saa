@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App2.css';
+import '../../App2.css';
 import { Link } from 'react-router-dom'
 export default function Login() {
     return (

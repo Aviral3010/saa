@@ -1,10 +1,13 @@
 import React from 'react'
-
+import Logo from "../../image/logo.png"
+import { useLocation } from 'react-router'
 export default function Navbar() {
+ 
+  
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"> <img src="jpg\logo.png" alt="" width="60" height="60"
+                <a class="navbar-brand" href="#"> <img src={Logo} alt="" width="60" height="60"
                     class="d-inline-block " /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -14,13 +17,13 @@ export default function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/score">Score card</a>
+                            <a class="nav-link" href="">Score card</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact.html">Contact</a>
+                            <a class="nav-link" href="">Contact</a>
                         </li>
 
 

@@ -11,10 +11,10 @@ function Home() {
             <div className="container logo">
 
                 <img src={Logo} alt="logo" />
-                <Link to='/login'>
+                <Link to='/login' className="lb">
                     <button className="signin2" onClick={goto}>Login to Use</button>
                 </Link>
-                <Link to='/Signup'>
+                <Link to='/Signup' className="lb">
                     <button className="signin2" >Signup</button>
                 </Link>
             </div>

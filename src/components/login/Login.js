@@ -70,7 +70,7 @@ export default function Login() {
 
 
 
-                <input type="email" className="text" name="email" onChange={onchange}value={credentials.email} />
+                <input type="email" className="text" name="email" onChange={onchange} value={credentials.email} />
                 <span className="inp">username</span>
 
                 <br />

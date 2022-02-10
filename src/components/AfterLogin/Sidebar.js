@@ -13,7 +13,7 @@ function Sidebar() {
                         <img src="https://bootdey.com/img/Content/avatar/avatar7.png" className="profile-pic" alt="" />
 
                         <h3>
-                            {a.auth}
+                            
                         </h3>
                         <p>Developer At HCL, Lucknow</p>
 

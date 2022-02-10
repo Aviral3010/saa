@@ -5,29 +5,29 @@ function Testcard(props) {
     <div class="courses-container">
     <div class="course">
         <div class="course-preview">
-            <h6></h6>
+            <h6>Question {props.no+1}</h6>
             <h2>
                 {props.ques}
             </h2>
         </div>
         <div class="course-info">
             <h6>Options</h6>
-            <h5><input type="radio" name="qval2" value="0"/>
+            <h5><input type="radio" name={`qval${props.no}`} value="0"/>
                 <label for="html">
                 {props.o1}
                 </label>
             </h5>
-            <h5><input type="radio" name="qval2" value="1"/>
+            <h5><input type="radio" name={`qval${props.no}`} value="1"/>
                 <label for="css">
                 {props.o2}
                 </label>
             </h5>
-            <h5><input type="radio" name="qval2" value="2"/>
+            <h5><input type="radio" name={`qval${props.no}`} value="2"/>
                 <label for="javascript">
                 {props.o3}
                 </label>
             </h5>
-            <h5><input type="radio" name="qval2" value="3"/>
+            <h5><input type="radio" name={`qval${props.no}`} value="3"/>
                 <label for="javascript">
                    {props.o4}
                 </label>
